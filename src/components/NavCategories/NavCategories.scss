@@ -1,0 +1,25 @@
+.NavCat {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    overflow:scroll;
+   
+   
+    
+    .NavLink {
+        margin: 10px;
+        border-radius: 5px;
+        color: white;
+        text-decoration: none;
+        font-size: 1.2em;
+        font-weight: bold;
+        transition: transform 0.1s ease; /* Smooth transition for the transform property */
+        cursor: pointer; /* Hand cursor on hover */
+        &:active { /* :active pseudo-class applies styles when the element is being clicked */
+            transform: scale(0.95); /* Scale the element down to 95% of its original size */
+        }
+
+    }
+
+  
+}

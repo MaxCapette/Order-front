@@ -1,0 +1,20 @@
+.dish-list {
+    height: 65vh;
+    overflow-y: scroll;
+    padding: 1em;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;    
+    margin-top: 100px;
+    padding: 0;
+    
+}
+.li-clickable {
+    transition: transform 0.1s ease; /* Smooth transition for the transform property */
+    cursor: pointer; /* Hand cursor on hover */
+   
+}
+
+.li-clickable:active { /* :active pseudo-class applies styles when the element is being clicked */
+    transform: scale(0.95); /* Scale the element down to 95% of its original size */
+}

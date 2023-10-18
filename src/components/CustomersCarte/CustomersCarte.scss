@@ -1,0 +1,22 @@
+.lacarte {
+    color: white;
+}
+.carte {
+    position: fixed;
+    top: 5em;
+    right: 32px;
+    padding: 1em;
+}
+.items-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 10px;
+    padding-left: 0;
+    overflow-y: auto;
+    
+}
+
+.container1 {
+    height: fit-content;
+}

@@ -1,0 +1,33 @@
+.card {
+    padding: 1.3em !important;
+    line-height: 0.7;
+    justify-content: flex-start;
+    color: white;
+    padding: 22px;
+
+    &-title {
+        margin: 0.1em;
+        white-space: nowrap;
+    }
+}
+.freeTable {
+    background-color: rgb(80, 80, 141);
+    
+}
+.active-link {
+  padding: 5em;
+}
+.status-in-progress {
+  background-color:  rgb(28, 137, 28); // Color for "In progress"
+  
+  }
+  
+  .status-cooking {
+    background-color:  rgb(205, 144, 31); // Color for "Cooking"
+   
+  }
+  
+  .status-waiting-payment {
+    background-color:  rgb(237, 69, 69); // Color for "Waiting payment"
+    
+  }

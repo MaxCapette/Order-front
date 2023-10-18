@@ -1,0 +1,11 @@
+@use 'sass:color';
+$mainColor: #a83349;
+$altColor: color.scale($mainColor, $lightness: 50%);
+$lightColor: color.scale($mainColor, $lightness: 90%);
+$darkerColor: color.scale($mainColor, $blackness: 50%);
+
+$newColor: #353641;
+$altNewColor: color.scale($newColor, $lightness: 35%);
+$lightNewColor: color.scale($newColor, $lightness: 50%);
+$lighterNewColor: color.scale($newColor, $lightness: 80%);
+$darkerNewColor: color.scale($newColor, $blackness: 50%);

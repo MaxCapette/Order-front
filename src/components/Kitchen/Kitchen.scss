@@ -1,0 +1,61 @@
+@use '../../styles/variables'as v;
+
+.kitchen-list {
+    height: 80vh;
+    align-items: stretch;
+}
+
+.kitchen-order-list {
+    margin: auto 1em;
+    padding: 0.5em;
+    height: 90%;
+    display: flex;
+    overflow-x: auto;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+}
+
+.kitchen-order-list li {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    min-width: 15em;
+    background-color: white;
+    margin-right: 0.3em;
+    justify-content: flex-start;
+    border-radius: 5px;
+}
+
+.kitchen-NavBtnBack {
+
+    position: fixed;
+    top: 2em;
+    right: 32px;
+    padding: 1em;
+
+}
+
+.kitchen-list-li-div {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 10px;
+    background-color: v.$lighterNewColor;
+    margin: 5px 0;
+    color: black;
+}
+
+.kitchen-list-li-div p {
+    margin: 2px;
+}
+
+.item-sent {
+    color: gray;
+}
+
+.kitchen-list-li h4 {
+    color: black;
+}
+.comment {
+    color: black;
+}

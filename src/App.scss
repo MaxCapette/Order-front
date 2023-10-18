@@ -1,0 +1,39 @@
+@use 'styles/variables'as v;
+
+#root {
+  max-width: 1280px;
+  min-width: 100px;
+  margin: 0 auto;
+  text-align: center;
+  background-color: v.$lighterNewColor;
+  font-family: 'Roboto', sans-serif;
+}
+
+.container1 {
+  background-color: v.$newColor;
+  height: 97vh;
+  border-radius: 15px;
+}
+
+.card {
+  padding: 1em;
+  width: 4em;
+  height: 5em;
+  overflow: hidden;
+  border-radius: 5px;
+  margin: 0.5em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+ border: 1px solid white;
+
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+h2, h3, h4, h5{
+  color: white;
+}
